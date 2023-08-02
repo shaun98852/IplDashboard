@@ -1,0 +1,93 @@
+/* Write your CSS here */
+
+.background {
+  min-height: 100vh;
+  padding-bottom: 30px;
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+}
+
+.CSK {
+  background-image: linear-gradient(to bottom, #f7db00, #1e293b);
+  min-height: 100vh;
+  padding: 20px;
+  padding-top: 60px;
+}
+
+.RCB {
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+  min-height: 100vh;
+  padding: 20px;
+  padding-top: 60px;
+}
+
+.KKR {
+  background-image: linear-gradient(to bottom, #5755a7, #1e293b);
+  padding: 20px;
+  padding-top: 60px;
+}
+
+.KXP {
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+  min-height: 100vh;
+  padding: 20px;
+  padding-top: 60px;
+  min-height: 100vh;
+}
+
+.RR {
+  background-image: linear-gradient(to bottom, #da237b, #1e293b);
+  min-height: 100vh;
+  padding: 20px;
+  padding-top: 60px;
+}
+
+.MI {
+  background-image: linear-gradient(to bottom, #13418b, #1e293b);
+  min-height: 100vh;
+  padding: 20px;
+  padding-top: 60px;
+}
+
+.SH {
+  background-image: linear-gradient(to bottom, #f26d22, #1e293b);
+  min-height: 100vh;
+  padding: 20px;
+  padding-top: 60px;
+}
+
+.DC {
+  background-image: linear-gradient(to bottom, #4f5db0, #1e293b);
+  min-height: 100vh;
+  padding: 20px;
+  padding-top: 60px;
+}
+
+.teamImages {
+  background-size: cover;
+  width: 100%;
+}
+
+.latestMatches {
+  color: #ffffff;
+  font-family: Bree serif;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 100px;
+}
+
+.unorderedList {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0px;
+}
+
+.circleLoader {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

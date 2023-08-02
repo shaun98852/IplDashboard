@@ -1,0 +1,138 @@
+/* Write your CSS here */
+
+.teamContainer {
+  background-color: #0f172a;
+
+  border-radius: 10px;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .teamContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.currentTeamBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .currentTeamBox {
+    width: 60%;
+  }
+}
+
+.teamDetails {
+  color: #ffffff;
+  font-family: Bree Serif;
+}
+
+@media screen and (min-width: 768px) {
+  .teamDetails {
+    margin-right: 5%;
+  }
+}
+
+.currentTeamHeading {
+  font-size: 25px;
+  font-weight: 450;
+}
+
+@media screen and (min-width: 768px) {
+  .currentTeamHeading {
+    font-size: 40px;
+  }
+}
+
+.date {
+  font-size: 22px;
+  font-weight: 450;
+}
+
+@media screen and (min-width: 768px) {
+  .date {
+    font-size: 35px;
+  }
+}
+
+.venue {
+  font-size: 14px;
+  font-weight: 450;
+}
+
+@media screen and (min-width: 768px) {
+  .venue {
+    font-size: 20px;
+  }
+}
+
+.result {
+  font-size: 14px;
+  font-weight: 450;
+}
+
+@media screen and (min-width: 768px) {
+  .result {
+    font-size: 20px;
+  }
+}
+
+.teamImage {
+  height: 120px;
+  width: 120px;
+}
+
+@media screen and (min-width: 768px) {
+  .teamImage {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+.secondBox {
+  color: #ffffff;
+  font-family: Bree Serif;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .secondBox {
+    text-align: end;
+    width: 40%;
+  }
+}
+
+.horizontalLine {
+  width: 100%;
+}
+
+.headings {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .headings {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .horizontalLine {
+    display: none;
+  }
+}
+
+.Answers {
+}
+
+@media screen and (min-width: 768px) {
+  .Answers {
+    font-size: 20px;
+  }
+}

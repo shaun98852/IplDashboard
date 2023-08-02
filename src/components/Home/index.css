@@ -1,0 +1,101 @@
+/* Write your CSS here */
+
+.bgContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.loadingCircle {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .bgContainer {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  }
+}
+
+.headingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iplLogoImage {
+  height: 70px;
+  margin-right: 10px;
+}
+
+.iplHeading {
+  font-family: Bree Serif;
+  color: #ffffff;
+  font-size: 55px;
+}
+
+.unList {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 10%;
+}
+
+.lisItem {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #ffffff;
+  border-width: 0.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff33;
+  width: 40%;
+  padding: 10px;
+  height: 100px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .lisItem {
+    height: 200px;
+    width: 45%;
+  }
+}
+
+.teamName {
+  color: #ffffff;
+  font-weight: 450;
+  font-size: 18px;
+  font-family: Bree Serif;
+  text-align: center;
+  width: 60%;
+}
+
+@media screen and (min-width: 768px) {
+  .teamName {
+    font-size: 26px;
+  }
+}
+
+.teamLogoImage {
+  margin-right: 2%;
+  width: 17%;
+}
+
+@media screen and (min-width: 768px) {
+  .teamLogoImage {
+    width: 20%;
+    /* height: 95px;
+    width: 85px; */
+  }
+}

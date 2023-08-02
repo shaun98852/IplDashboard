@@ -1,0 +1,41 @@
+/* Write your CSS here */
+
+.itemList {
+  background-color: #0f172a;
+  color: #ffffff;
+  font-family: Bree Serif;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px;
+  height: 400px;
+  width: 250px;
+  margin: 10px;
+  margin-right: 20px;
+}
+
+.competingTeamLogo {
+  height: 100px;
+  width: 100px;
+}
+
+.competingTeam {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.result {
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+.wonOrLost {
+  font-size: 22px;
+}
+
+.won {
+  color: #18ed66;
+}
+
+.lost {
+  color: #e31a1a;
+}
